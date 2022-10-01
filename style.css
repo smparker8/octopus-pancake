@@ -7,7 +7,6 @@
 h1,
 h2,
 h3 {
-  text-align: center;
   margin: 0;
 }
 
@@ -78,4 +77,17 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .contact-link {
+    display: block;
+    font-size: 18px;
+    text-align: center;
+  }
 }
