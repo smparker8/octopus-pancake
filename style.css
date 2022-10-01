@@ -85,6 +85,14 @@ p {
     text-align: center;
   }
 
+  h1 {
+    font-size: 50px;
+  }
+
+  p {
+    text-align: center;
+  }
+
   .contact-link {
     display: block;
     font-size: 18px;
